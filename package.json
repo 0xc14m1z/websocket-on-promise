@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:0xc14m1z/websocket-on-promise.git",
   "author": "Morgan Dam <0xc14m1z@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
 }

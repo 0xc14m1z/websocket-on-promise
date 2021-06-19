@@ -6,7 +6,28 @@
   "repository": "git@github.com:0xc14m1z/websocket-on-promise.git",
   "author": "Morgan Dam <0xc14m1z@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start:example:frontend": "parcel example/index.html",
+    "start:example:backend": "ts-node example/server.ts",
+    "start:example": "npm-run-all --parallel start:example:*"
+  },
   "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.2",
+    "@types/node-fetch": "^2.5.10",
+    "@types/websocket": "^1.0.2",
+    "@types/ws": "^7.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.5",
+    "ts-node": "^10.0.0",
     "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "nanoid": "^3.1.23",
+    "ws": "^7.5.0"
   }
 }
